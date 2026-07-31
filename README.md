@@ -186,6 +186,10 @@ Yes. Use the install sections below to add the Actor as an MCP tool in [Claude C
 
 Chain this discovery API with the [Workday Careers API](https://apify.com/johnvc/workday-careers-api?fpr=9n7kx3): this repo finds the career sites and the `apiUrl`; that Actor extracts every job posting from a site's URL. Discovery here, extraction there.
 
+## n8n integration
+
+Available as an n8n community node, **[n8n-nodes-workday-career-sites-api](https://www.npmjs.com/package/n8n-nodes-workday-career-sites-api)**. In n8n: Settings, Community Nodes, install `n8n-nodes-workday-career-sites-api`, then use it in any workflow (it also works as an AI Agent tool).
+
 ---
 
 ## Install in Claude Cowork Desktop
